@@ -8,8 +8,10 @@ venv/
 .venv/
 
 # Environment Variables
-.env
-*.env
+
+# Uncomment this after starting proejct
+# .env  
+# *.env
 
 # Database Files
 instance/
