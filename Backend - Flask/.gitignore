@@ -1,0 +1,30 @@
+# Bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+*.env
+
+# Database Files
+instance/
+*.sqlite3
+*.db
+
+# Flask Logs & Caches
+flask_session/
+*.log
+.cache/
+.mypy_cache/
+.coverage
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac & Linux system files (ignore if not needed)
+.DS_Store
