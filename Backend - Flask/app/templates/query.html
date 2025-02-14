@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+
+{% block title %} Query Page {% endblock  %}
+
+{% block pageName %} Query Page {% endblock %}
+
+
+{% block content  %}
+
+    <div class="flex w-full justify-center items-center" >
+
+        <!-- To show list of all users  -->
+
+        <div class="border-2 p-4">
+            <label for="">Get All users</label>
+            <Button action="url_for('AllUser')" >Get All Users</Button>
+        </div>
+
+
+
+    </div>
+
+{% endblock  %}
